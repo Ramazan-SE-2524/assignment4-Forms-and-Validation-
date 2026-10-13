@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task1</title>
+  </head>
+  <body>
+    <h1>Contact Us (with validation)</h1>
+    <form action="#" method="post">
+      <label for="name">Name:</label><br />
+      <input
+        type="text"
+        id="name"
+        name="name"
+        required
+        minlength="2"
+        maxlength="50"
+      /><br /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" name="email" id="email" required /><br /><br />
+
+      <label for="message">Message:</label><br />
+      <textarea
+        name="message"
+        id="message"
+        rows="5"
+        cols="30"
+        required
+        minlength="10"
+        maxlength="300"
+      ></textarea
+      ><br /><br />
+
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>
