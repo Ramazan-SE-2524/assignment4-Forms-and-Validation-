@@ -9,19 +9,18 @@ A multi-page website about HTML forms and form validation. It covers basic HTML 
 
 ## Pages
 
-| Task   | Page                      | Description                                                                                                |
-| ------ | ------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| Task 0 | index.html                | Simple contact form (name, email, message) with labels                                                     |
-| Task 1 | validation.html           | Contact form with HTML5 validation (required, minlength, maxlength, email type)                            |
-| Task 2 | bootstrap-form.html       | Contact form styled with Bootstrap classes and grid, with placeholders and helper text                     |
-| Task 3 | bootstrap-validation.html | Bootstrap validation classes (is-valid, is-invalid) with feedback messages                                 |
-| Task 4 | registration.html         | Registration form: text fields, password confirmation, radio buttons, checkboxes, select, Submit and Reset |
+| Task   | Page                      | Description                                                                                                                                                    |
+| ------ | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Task 0 | index.html                | Simple contact form (name, email, message) with labels                                                                                                         |
+| Task 1 | validation.html           | Contact form with HTML5 validation (required, minlength, maxlength, email type)                                                                                |
+| Task 2 | bootstrap-form.html       | Contact form styled with Bootstrap classes and grid, with placeholders and helper text                                                                         |
+| Task 3 | bootstrap-validation.html | Bootstrap validation: was-validated, is-valid and is-invalid classes with feedback messages                                                                    |
+| Task 4 | registration.html         | Registration form: text fields, passwords, radio buttons, checkboxes, select, Submit and Reset, HTML5 validation (required, minlength) with Bootstrap feedback |
 
 ## Technologies
 
 - HTML5
 - CSS (Bootstrap 5.3 via CDN)
-- JavaScript
 
 ## How to run
 
